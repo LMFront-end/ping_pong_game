@@ -35,5 +35,11 @@ const game = function() {
         player2.keyCode = null;
     }
 
+    function stop() {
+        clearInterval(controlGame);
+        //document.body.style.background = url("../assets/gameOver.png");
+        swal("Game over", "F5 to play again", "error");
+    }
+
     start();
 }();
