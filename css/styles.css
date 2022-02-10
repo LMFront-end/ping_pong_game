@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100vh;
+    background: url("../assets/Fondo1.jpg");
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    background: #f7f1e3;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    border: 2px solid #f53b57;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.bar {
+    width: 25px;
+    height: 130px;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    border: 2px solid #000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#bar1 {
+    top: 20px;
+    float: left;
+    position: absolute;
+    margin-left: 30px;
+}
+
+#bar2 {
+    top: 20px;
+    right: 0;
+    position: absolute;
+    margin-right: 30px;
+}
+
+#line {
+    width: 50%;
+    border-right: 5px dashed #fff;
+    height: 100%;
+}
