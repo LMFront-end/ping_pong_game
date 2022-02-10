@@ -23,3 +23,6 @@
 -> Flecha arriba (⬆) : 38 (keyCode)
 # Jugador # 2
 -> Flecha abajo (⬇) : 40 (keyCode)
+
+## link game
+https://epic-wing-faad6a.netlify.app/
