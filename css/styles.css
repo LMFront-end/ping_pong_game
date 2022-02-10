@@ -36,14 +36,14 @@ html {
     top: 20px;
     float: left;
     position: absolute;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 #bar2 {
     top: 20px;
     right: 0;
     position: absolute;
-    margin-right: 30px;
+    margin-right: 5px;
 }
 
 #line {
