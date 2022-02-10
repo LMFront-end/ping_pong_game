@@ -12,4 +12,28 @@ const game = function() {
     let controlGame;
     let player1;
     let player2;
+
+    // empezar el juego
+
+    function start() {
+        // iniciar el juego
+        init();
+        // control del juego (se pasan como parametro el inicio, y la velocidad de la bola)
+        controlGame = setInterval(play, time);
+    }
+
+    function init() {
+
+        ball.style.left = 0;
+        ball.state = 1;
+        ball.direction = 1; // right 1, left 2
+        player1 = new Object();
+        player2 = new Object();
+        player1.keyPress = false;
+        player1.keyCode = null;
+        player2.keyPress = false;
+        player2.keyCode = null;
+    }
+
+    start();
 }();
